@@ -6,13 +6,8 @@
 
 .card {
     max-width: 400px;
-    /* min-height: 200px; */
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
-
-    /* max-width: 500px; */
-    /* height: 300px; */
     padding: 20px;
 
     border: 1px solid rgba(255, 255, 255, .25);
@@ -22,8 +17,6 @@
 
     backdrop-filter: blur(15px);
 }
-
-
 .card:hover {
     transform: scale(1.1) translate(-8%, -3%);
 
@@ -33,8 +26,6 @@
     box-shadow: 0 0 5px #080808;
 
     cursor: pointer;
-
-
 }
 
 .profile {
